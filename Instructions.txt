@@ -1,0 +1,14 @@
+Create a virtual environment to isolate your project dependencies.
+Activate the virtual environment.
+With the virtual environment activated, install the required Python libraries:
+Download the necessary NLTK data
+Data-Extraction-and-NLP (Project Folder/)
+    MasterDictionary/
+    StopWords/
+    venv/ (virtual environment)
+    input.xlsx (contains URLs and URL IDs)
+    main.py (Python script)
+    Output.xlsx (output file)
+Open a terminal or command prompt in your project folder with the virtual environment activated.
+Run the main.py file using the virtual environment's Python interpreter
+After the script successfully completes its run, check the "Output.xlsx" file in your project folder to review the computed variables for each URL_ID.
