@@ -175,6 +175,7 @@ def scrape_website(url, id):
                    "WORD COUNT": len(word_count), "SYLLABLE PER WORD": syllable_per_word,
                    "PERSONAL PRONOUNS": personal_pronouns_count, "AVG WORD LENGTH": avg_word_length}
             final_data.append(row)
+
         else:
             print(f"Failed to retrieve data from Status code: {response.status_code}")
     except Exception as e:
